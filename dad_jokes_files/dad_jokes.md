@@ -1,7 +1,7 @@
 # Dad Jokes API Tutorial
 
 [Overview](https://kurtnheiss.github.io/dad_jokes_files/dad_jokes.html#overview)  
-  [Resource details](https://kurtnheiss.github.io/dad_jokes_files/dad_jokes.html#resource-details)
+    [Resource details](https://kurtnheiss.github.io/dad_jokes_files/dad_jokes.html#resource-details)
 
 
 ## Overview
