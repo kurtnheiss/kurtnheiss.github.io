@@ -23,7 +23,8 @@ No authentication is required to use the Dad Jokes API.
 
 In this tutorial the curl command is used for Dad Jokes API requests and the JSON format for the response output.
 
-**Note**: Python, JavaScript, Java, Ruby, and other popular programming languages can be used to make HTTP requests to the Dad Joke API endpoints; however, these languages are out of the scope of and not included in this tutorial.
+**Note**
+Python, JavaScript, Java, Ruby, and other popular programming languages can be used to make HTTP requests to the Dad Joke API endpoints; however, these languages are out of the scope of and not included in this tutorial.
 
 ### Header format
 Valid Accept headers include:
