@@ -124,11 +124,10 @@ Response:
 ```
  
 ### Search for dad jokes
-You can search for a specific range of dad jokes using the following query string parameters appended to the search parameter on the Dad Joke API URL:
-* `page`: The page of results to obtain (the default value is page 1)
-* `limit`: The number of results to return per page (the default number of results to return per page is 20 with a maximum of 30)
-* `term`: The search term to use (the default is to list all jokes)
-
+To search for a dad joke using a term or word that may be present in the joke, append the Dad Joke API request with `search` and `term` as shown:
+```
+$ curl -H "Accept: application/json" https://icanhazdadjoke.com/search?term=<your_term>”
+```
 For example appending the Dad Joke URL with `search` and the `term` parameter in the following:
 ```
 $ curl -H "Accept: application/json" https://icanhazdadjoke.com/search?term=bike”
@@ -156,8 +155,14 @@ Provides the following JSON response output:
   "total_pages": 1
 }
 ```
+
 #### Pagination
-You can control pagination using the page and limit parameters. 
+
+You can control the pagination of your dad joke search using the `page` and `limit` parameters: 
+
+* `page`: The current page of results to obtain (the default value is page 1)
+* `limit`: The number of results to return per page (the default number of results to return per page is 20 with a maximum of 30)
+
 For example, to see a limit of 10 dad jokes on the 3rd page of results you use the following command:
 ```
 $ curl -H "Accept: application/json" "https://icanhazdadjoke.com/?page=3&limit=10"
@@ -166,6 +171,37 @@ Which generates the the following response showing all of the dad jokes on the 3
 ```
 {"id":"FdN7wcxAskb","joke":"They're making a movie about clocks. It's about time","status":200}
 ```
+Combining the `page` and `limit` parameters with `search` and `term` enables you to refine the dad joke output you are seeking.
+
+For example:
+```
+$ curl -H "Accept: application/json" "https://icanhazdadjoke.com/search?term=bike&page=1&limit=10"
+```
+The JSON output is:
+```
+{
+  "current_page": 1,
+  "limit": 10,
+  "next_page": 1,
+  "previous_page": 1,
+  "results": [
+    {
+      "id": "R7UfaahVfFd",
+      "joke": "My dog used to chase people on a bike a lot. It got so bad I had to take his bike away."
+    },
+    {
+      "id": "HtcNuHJBQCd",
+      "joke": "How many kids with ADD does it take to change a lightbulb? Let's go ride bikes!"
+    }
+  ],
+  "search_term": "bike",
+  "status": 200,
+  "total_jokes": 2,
+  "total_pages": 1
+}
+
+```
+
 ### Obtain a joke by GraphQL query
 You can obtain a specific joke and its text using a POST request sent to the Dad Joke API GraphQL endpoint. 
 Using GraphQL for dad joke searches can lead to more efficient, flexible, and maintainable code compared to traditional RESTful approaches.
