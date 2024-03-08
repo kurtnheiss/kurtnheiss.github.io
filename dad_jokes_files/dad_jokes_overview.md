@@ -29,7 +29,7 @@ The Dad Jokes API outputs in various response formats, such as JSON or plain tex
 
 Popular programming languages such as Python, JavaScript, Java, Ruby, and others can be used to make HTTP requests to the Dad Joke API endpoints
 
-Authentication is not required to use the Dad Jokes API; however you must set a custome User-Agent in the header for all requests. This facilitates monitoring and enables server understanding of the capabilities and context of the client making the request.
+Authentication is not required to use the Dad Jokes API; however you must set a custom User-Agent in the header for all requests. This facilitates monitoring and enables server understanding of the capabilities and context of the client making the request.
 
 For information on using the Dad Jokes API, refer to the [Dad Jokes API Tutorial](https://kurtnheiss.github.io/dad_jokes_files/dad_jokes_tutorial.html).
 
