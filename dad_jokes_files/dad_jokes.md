@@ -38,7 +38,8 @@ Valid Accept headers include:
 * `application/json` - JSON response
 * `text/plain` - Plain text response
 
-[!NOTE]: `curl` requests made without a valid `Accept` header receive a `text/plain` response.
+>[!IMPORTANT]
+>`curl` requests made without a valid `Accept` header receive a `text/plain` response.
 
 ### User agent
 The Dad Joke API requires that you set a custom `User-Agent` header for all requests. By setting a custom `User-Agent` header for your code you facilitate usage monitoring.
