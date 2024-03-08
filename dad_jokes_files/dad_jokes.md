@@ -50,12 +50,13 @@ $ curl -H "User-Agent: My Library (https://github.com/username/repo)" https://ic
 ## Dad Joke requests
 The following sections describe some of the requests you can make to the Dad Joke endpoint:
 
-* [Obtain a random dad joke]()
-* [Obtain a random dad joke as a Slack message]()
-* [Obtain a specific dad joke]()
-* [Obtain a dad joke as an image]()
-* [Search for dad jokes]()
-* [Obtain a joke by GraphQL query]()
+* [Obtain a random dad joke](https://kurtnheiss.github.io/dad_jokes_files/dad_jokes.html#obtain-a-random-dad-joke)
+* [Obtain a random dad joke as a Slack message](https://kurtnheiss.github.io/dad_jokes_files/dad_jokes.html#obtain-a-random-dad-joke-formatted-for-slack)
+* [Obtain a specific dad joke](https://kurtnheiss.github.io/dad_jokes_files/dad_jokes.html#obtain-a-specific-dad-joke)
+* [Obtain a dad joke as an image](https://kurtnheiss.github.io/dad_jokes_files/dad_jokes.html#obtain-a-dad-joke-as-an-image)
+* [Search for dad jokes](https://kurtnheiss.github.io/dad_jokes_files/dad_jokes.html#search-for-dad-jokes)
+  * [Pagination](https://kurtnheiss.github.io/dad_jokes_files/dad_jokes.html#pagination) 
+* [Obtain a joke by GraphQL query](https://kurtnheiss.github.io/dad_jokes_files/dad_jokes.html#obtain-a-joke-by-graphql-query)
 
 ### Obtain a random dad joke
 To obtain a random dad joke, use the following command:
