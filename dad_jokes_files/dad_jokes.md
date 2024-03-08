@@ -214,7 +214,7 @@ $ curl -X POST \ -H "Content-Type: application/json" \ --data '{"query": "{ joke
 The elements of note in this request are:
 
 * `-H "Content-Type: application/json"`: This option sets the content type of the request header to JSON. It tells the server that the data being sent in the body is JSON formatted.
-* ` --data '{"query": "{ joke { id, joke } }"}'`: This option specifies the data payload of the POST request. In the context of GraphQL, this option is typically used to send GraphQL queries or mutations to a GraphQL server. In the example `--data '{"query": "{ joke { id, joke } }"}'`, the data payload is a JSON object with a single key-value pair.
+* `--data '{"query": "{ joke { id, joke } }"}'`: This option specifies the data payload of the POST request.
 * `https://icanhazdadjoke.com/graphql`: This is the URL to which the `POST` request is being sent. It's a GraphQL endpoint hosted at `https://icanhazdadjoke.com`.
 
 After you have entered the curl command:
