@@ -9,6 +9,7 @@
   * [Obtain a specific dad joke](https://kurtnheiss.github.io/dad_jokes_files/dad_jokes.html#obtain-a-specific-dad-joke)
   * [Obtain a dad joke as an image](https://kurtnheiss.github.io/dad_jokes_files/dad_jokes.html#obtain-a-dad-joke-as-an-image)
   * [Search for dad jokes](https://kurtnheiss.github.io/dad_jokes_files/dad_jokes.html#search-for-dad-jokes)
+      * [Pagination](https://kurtnheiss.github.io/dad_jokes_files/dad_jokes.html#pagination)
   * [Obtain a joke using GraphQL](https://kurtnheiss.github.io/dad_jokes_files/dad_jokes.html#obtain-a-joke-by-graphql-query)
 * [Error handling](https://kurtnheiss.github.io/dad_jokes_files/dad_jokes.html#error-handling) 
  
