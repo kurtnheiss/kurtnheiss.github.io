@@ -40,7 +40,7 @@ Valid `Accept` headers include:
 > **IMPORTANT:** `curl` requests made without a valid `Accept` header receive a `text/plain` response.
 
 ### User agent
-The Dad Joke API requires that you set a custom `User-Agent` header for all requests. By setting a custom `User-Agent` header for your code you facilitate usage monitoring and helps the server understand the capabilities and 
+The Dad Joke API requires that you set a custom `User-Agent` header for all requests. Setting a custom `User-Agent` header for your code facilitates server understanding of the capabilities and 
 context of the client making the request.
 
 Your user agent should include the name of the library or website that is accessing the API along with a contact URL or e-email.
@@ -131,6 +131,7 @@ Response:
 ```
 <img src="https://icanhazdadjoke.com/j/R7UfaahVfFd.png" />
 ```
+ My dog used to chase people on a bike a lot. It got so bad I had to take his bike away.
  
 ### Search for dad jokes
 To search for a dad joke using a term or word that may be present in the joke, append the Dad Joke API request with `search` and `term` as shown:
