@@ -40,14 +40,22 @@ Valid `Accept` headers include:
 > **IMPORTANT:** `curl` requests made without a valid `Accept` header receive a `text/plain` response.
 
 ### User agent
-The Dad Joke API requires that you set a custom `User-Agent` header for all requests. By setting a custom `User-Agent` header for your code you facilitate usage monitoring.
+The Dad Joke API requires that you set a custom `User-Agent` header for all requests. By setting a custom `User-Agent` header for your code you facilitate usage monitoring helps the server understand the capabilities and 
+context of the client making the request.
 
 Your user agent should include the name of the library or website that is accessing the API along with a contact URL or e-email.
 
-For example:
+Inclusion of the user agent in the API request has the following format:
+
 ```
 $ curl -H "User-Agent: My Library (https://github.com/username/repo)" https://icanhazdadjoke.com/
 ```
+For example:
+```
+url -H "User-Agent: MyCoolApp/1.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" https://icanhazdadjoke.com/
+```
+**The following requests with examples in this tutorial do not incorporate use the use of a `User-Agent` for the sake of brevity and clarity.**
+
 ## Dad Joke requests
 The following sections describe some of the requests you can make to the Dad Joke endpoint:
 
@@ -216,12 +224,6 @@ The elements of note in this request are:
 * `-H "Content-Type: application/json"`: This option sets the content type of the request header to JSON. It tells the server that the data being sent in the body is JSON formatted.
 * `--data '{"query": "{ joke { id, joke } }"}'`: This option specifies the data payload of the POST request.
 * `https://icanhazdadjoke.com/graphql`: This is the URL to which the `POST` request is being sent. It's a GraphQL endpoint hosted at `https://icanhazdadjoke.com`.
-
-After you have entered the curl command:
-1. `curl` sends an `HTTP POST` request to `https://icanhazdadjoke.com/graphql`.
-2. The body of the `POST` request contains the GraphQL query, specifying that you want to retrieve a joke with its ID, the joke text itself, and its permalink.
-3. The server processes the request, executes the GraphQL query, and returns the requested data.
-4. `curl` displays the response from the server in your terminal. This response is in JSON format, containing the requested joke data.
 
 Using the previous example of `R7UfaahVfFd` the format of your GraphQL request is:
 ```
