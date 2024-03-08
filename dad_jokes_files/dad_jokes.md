@@ -6,13 +6,12 @@
   * [User agent](https://kurtnheiss.github.io/dad_jokes_files/dad_jokes.html#custom-user-agent)
 * [Dad joke requests](https://kurtnheiss.github.io/dad_jokes_files/dad_jokes.html#dad-joke-requests)
   * [Obtain a random dad joke](https://kurtnheiss.github.io/dad_jokes_files/dad_jokes.html#obtain-a-random-dad-joke)
-  * [Obtain a specific dad joke]()
-  * [Obtain a dad joke as an image]()
-  * [Search for dad jokes]()
-  * [Obtain a joke using GraphQL]()  
+  * [Obtain a specific dad joke](https://kurtnheiss.github.io/dad_jokes_files/dad_jokes.html#obtain-a-specific-dad-joke)
+  * [Obtain a dad joke as an image](https://kurtnheiss.github.io/dad_jokes_files/dad_jokes.html#obtain-a-dad-joke-as-an-image)
+  * [Search for dad jokes](https://kurtnheiss.github.io/dad_jokes_files/dad_jokes.html#search-for-dad-jokes)
+  * [Obtain a joke using GraphQL](https://kurtnheiss.github.io/dad_jokes_files/dad_jokes.html#obtain-a-joke-by-graphql-query)
+* [Error handling](https://kurtnheiss.github.io/dad_jokes_files/dad_jokes.html#error-handling) 
  
-
-
 ## Overview
 The Dad Joke REST API enables you to access a vast database of dad jokes to obtain:
 
