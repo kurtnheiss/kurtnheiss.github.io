@@ -1,4 +1,4 @@
-Overview
+# Dad Jokes API Overview
 
 A dad joke is a type of humor characterized by its simplicity, which often facilitates the creation of groan-inducing puns, wordplay, or cheesy humor. They're typically light-hearted and harmless, often delivered by fathers to their children which confers the naming of the joke as a "dad joke."
 
@@ -7,7 +7,7 @@ For example:
 
 They're not always meant to be knee-slappingly funny but are more about eliciting a chuckle or an eye-roll from the audience.
 
-Using the Dad Jokes API enables access to a database containing a multitude of dad jokes.
+Using the Dad Jokes API provides access to a database containing a multitude of dad jokes.
 
 You can integrate dad jokes into various applications and platforms, such as:
 * Entertainment apps: Incorporate dad jokes into joke apps, trivia games, or chatbots to add humor and engagement for users.
@@ -18,7 +18,7 @@ You can integrate dad jokes into various applications and platforms, such as:
 
 Overall, the Dad Jokes API provides a fun and light-hearted way to incorporate humor into various digital experiences.
 
-Integrating the Dad Jokes API into your app or platform you can obtain:  
+You can integrate the Dad Jokes API into your app or platform and then configure and obtain:  
 * A random dad joke
 * A random dad joke formatted for Slack
 * A specific dad joke
@@ -26,6 +26,8 @@ Integrating the Dad Jokes API into your app or platform you can obtain:
 * A list of dad jokes
 
 The Dad Jokes API outputs in various response formats, such as JSON or plain text.
+
+Popular programming languages such as Python, JavaScript, Java, Ruby, and others can be used to make HTTP requests to the Dad Joke API endpoints
 
 Authentication is not required to use the Dad Jokes API; however you must set a custome User-Agent in the header for all requests. This facilitates monitoring and enables server understanding of the capabilities and context of the client making the request.
 
