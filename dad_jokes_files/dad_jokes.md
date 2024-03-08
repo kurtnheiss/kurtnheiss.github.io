@@ -54,7 +54,7 @@ For example:
 ```
 url -H "User-Agent: MyCoolApp/1.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" https://icanhazdadjoke.com/
 ```
-> **IMPORTANT:** The following requests with examples in this tutorial do not incorporate use the use of a `User-Agent` for the sake of brevity and clarity.**
+> **IMPORTANT:** The following request examples in this tutorial do not incorporate use the use of a `User-Agent` for the sake of brevity and clarity.
 
 ## Dad Joke requests
 The following sections describe some of the requests you can make to the Dad Joke endpoint:
