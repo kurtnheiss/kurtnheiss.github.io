@@ -2,6 +2,9 @@
 
 * [Overview](https://kurtnheiss.github.io/dad_jokes_files/dad_jokes.html#overview)
   * [Resource details](https://kurtnheiss.github.io/dad_jokes_files/dad_jokes.html#resource-details)
+  * [Header format](https://kurtnheiss.github.io/dad_jokes_files/dad_jokes.html#header-format)
+  * [User agent](https://kurtnheiss.github.io/dad_jokes_files/dad_jokes.html#custom-user-agent)
+  * 
 
 
 ## Overview
@@ -22,7 +25,7 @@ In this tutorial the curl command is used for Dad Jokes API requests and the JSO
 
 **Note**: Python, JavaScript, Java, Ruby, and other popular programming languages can be used to make HTTP requests to the Dad Joke API endpoints; however, these languages are out of the scope of and not included in this tutorial.
 
-## Header format
+### Header format
 Valid Accept headers include:
 * `text/html` - HTML response (default response format)
 * `application/json` - JSON response
@@ -30,7 +33,7 @@ Valid Accept headers include:
 
 **Note**: `curl` requests made without a valid `Accept` header receive a `text/plain` response.
 
-## Custom user agent
+### User agent
 The Dad Joke API requires that you set a custom `User-Agent` header for all requests. By setting a custom `User-Agent` header for your code you facilitate usage monitoring.
 
 Your user agent should include the name of the library or website that is accessing the API along with a contact URL or e-email.
@@ -39,17 +42,17 @@ For example:
 ```
 $ curl -H "User-Agent: My Library (https://github.com/username/repo)" https://icanhazdadjoke.com/
 ```
-### Dad Joke requests
+## Dad Joke requests
 The following sections describe some of the requests you can make to the Dad Joke endpoint:
 
-* [Obtain a random dad joke]{}
-* Obtain a random dad joke as a Slack message
-* Obtain a specific dad joke
-* Obtain a dad joke as an image
-* Search for dad jokes
-* Graph QL query
+* [Obtain a random dad joke]()
+* [Obtain a random dad joke as a Slack message]()
+* [Obtain a specific dad joke]()
+* [Obtain a dad joke as an image]()
+* [Search for dad jokes]()
+* [Obtain a joke by GraphQL query]()
 
-## Obtain a random dad joke
+### Obtain a random dad joke
 To obtain a random dad joke, use the following command:
 ```
 $ curl -H "Accept: application/json" https://icanhazdadjoke.com
@@ -63,7 +66,7 @@ Response:
 }
 ```
 
-## Obtain a random dad joke formatted for Slack
+### Obtain a random dad joke formatted for Slack
 To obtain a random dad joke formatted for Slack, use the following command:
 ```
 $ curl -H "Accept: application/json" https://icanhazdadjoke.com/slack.
@@ -82,7 +85,7 @@ Response:
   "username": "icanhazdadjoke"
 }
 ```
-## Obtain a specific dad joke
+### Obtain a specific dad joke
 To obtain a specific Dad Joke you use the `<joke_id>` parameter in the following request format:
 
 ```
@@ -100,19 +103,21 @@ Response:
   "status": 200
 }
 ```
-## Obtain a dad joke as an image
+### Obtain a dad joke as an image
 To obtain a dad joke as an image, append the `<joke_id>` parameter with `.png` and make the following request:
 ```
 $ curl -H "Accept: application/json" https://icanhazdadjoke.com/j/<joke_id>.png
 ```
 Using the `joke_id` value of `R7UfaahVfFd` shown in a previous example you make the following request:
 ```
-The response example:
+$ curl -H "Accept: application/json" https://icanhazdadjoke.com/j/R7UfaahVfFd.png
+```
+Response:
 ```
 <img src="https://icanhazdadjoke.com/j/R7UfaahVfFd.png" />
 ```
  
-## Search for dad jokes
+### Search for dad jokes
 You can search for a specific range of dad jokes using the following query string parameters appended to the search parameter on the Dad Joke API URL:
 * `page`: The page of results to obtain (the default value is page 1)
 * `limit`: The number of results to return per page (the default number of results to return per page is 20 with a maximum of 30)
@@ -149,7 +154,7 @@ Provides the following JSON response output:
   "total_pages": 1
 }
 ```
-### Pagination
+#### Pagination
 You can control pagination using the page and limit parameters. 
 For example, to see a limit of 10 dad jokes on the 3rd page of results you use the following command:
 ```
@@ -159,7 +164,7 @@ Which generates the the following response showing all of the dad jokes on the 3
 ```
 {"id":"FdN7wcxAskb","joke":"They're making a movie about clocks. It's about time","status":200}
 ```
-## Obtain a joke by GraphQL query
+### Obtain a joke by GraphQL query
 You can obtain a specific joke and its text using a POST request sent to the Dad Joke API GraphQL endpoint.
 
 An example of the full curl command is as follows:
@@ -182,7 +187,7 @@ The following is a JSON output example for this type of request:
 ```
 {"data":{"joke":{"id":"3E6U8UKmbFd","joke":"Sometimes I tuck my knees into my chest and lean forward.  That\u2019s just how I roll.","permalink":"https://icanhazdadjoke.com/j/3E6U8UKmbFd"}}}%
 ```
-# Error Handling
+## Error Handling
 Successful requests to the Dad Jokes API provide the requested dad joke and associated details along with a `“status”: 200` message.
 
 Malformed or incomplete requests receive an error message specifying the issue or problem with the request.
