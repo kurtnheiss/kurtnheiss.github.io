@@ -22,6 +22,7 @@ The Dad Joke REST API enables you to access a vast database of dad jokes to obta
 * A dad joke as an image
 * A list of dad jokes
 
+Refer to [Dad Jokes API Overview](https://kurtnheiss.github.io/dad_jokes_files/dad_jokes_overview.html) for conceptual and usage information.
 ### Resource details
 The Dad Jokes API is located at [https://icanhazdadjoke.com](https://icanhazdadjoke.com).
 
