@@ -243,4 +243,3 @@ For example:
 curl: (3) URL rejected: Malformed input to a URL function
 ```
 
-
