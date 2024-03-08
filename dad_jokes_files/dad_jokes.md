@@ -33,8 +33,8 @@ In this tutorial the `curl` command is used for Dad Jokes API requests and the J
 
 ### Header format
 Valid `Accept` headers include:
-* `text/html` - HTML response (default response format)
-* `application/json` - JSON response
+* `text/html` - HTML response
+* `application/json` - JSON response (in this tutorial)
 * `text/plain` - Plain text response
 
 > **IMPORTANT:** `curl` requests made without a valid `Accept` header receive a `text/plain` response.
