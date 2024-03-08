@@ -4,7 +4,13 @@
   * [Resource details](https://kurtnheiss.github.io/dad_jokes_files/dad_jokes.html#resource-details)
   * [Header format](https://kurtnheiss.github.io/dad_jokes_files/dad_jokes.html#header-format)
   * [User agent](https://kurtnheiss.github.io/dad_jokes_files/dad_jokes.html#custom-user-agent)
-  * 
+* [Dad joke requests](https://kurtnheiss.github.io/dad_jokes_files/dad_jokes.html#dad-joke-requests)
+  * [Obtain a random dad joke]()
+  * []()
+  * []()
+  * []()
+  * []()  
+ 
 
 
 ## Overview
@@ -17,13 +23,13 @@ The Dad Joke REST API enables you to access a vast database of dad jokes to obta
 * A list of dad jokes
 
 ### Resource details
-The Dad Jokes API is located at https://icanhazdadjoke.com.
+The Dad Jokes API is located at [https://icanhazdadjoke.com](https://icanhazdadjoke.com).
 
 No authentication is required to use the Dad Jokes API.
 
-In this tutorial the curl command is used for Dad Jokes API requests and the JSON format for the response output.
+In this tutorial the `curl` command is used for Dad Jokes API requests and the JSON format for the response output.
 
-> [!NOTE]  
+>[!NOTE]  
 > Python, JavaScript, Java, Ruby, and other popular programming languages can be used to make HTTP requests to the Dad Joke API endpoints; however, these languages are out of the scope of and not included in this tutorial.
 
 ### Header format
