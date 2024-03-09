@@ -10,11 +10,11 @@ They're not always meant to be knee-slappingly funny but are more about elicitin
 Using the Dad Jokes API provides access to a database containing a multitude of dad jokes.
 
 You can integrate dad jokes into various applications and platforms, such as:
-* Entertainment apps: Incorporate dad jokes into joke apps, trivia games, or chatbots to add humor and engagement for users.
-* Social media platforms: Share dad jokes on social media platforms to entertain followers and increase engagement.
-* Messaging apps: Integrate dad jokes into messaging apps or chatbots to entertain users during conversations.
-* Websites and blogs: Display dad jokes on websites or blogs to add humor and entertain visitors.
-* Learning platforms: Incorporate dad jokes into educational platforms or courses to lighten the mood and engage learners.
+* **Entertainment apps**: Incorporate dad jokes into joke apps, trivia games, or chatbots to add humor and engagement for users.
+* **Social media platforms**: Share dad jokes on social media platforms to entertain followers and increase engagement.
+* **Messaging apps**: Integrate dad jokes into messaging apps or chatbots to entertain users during conversations.
+* **Websites and blogs**: Display dad jokes on websites or blogs to add humor and entertain visitors.
+* **Learning platforms**: Incorporate dad jokes into educational platforms or courses to lighten the mood and engage learners.
 
 Overall, the Dad Jokes API provides a fun and light-hearted way to incorporate humor into various digital experiences.
 
