@@ -1,4 +1,4 @@
-# Dad Joke API search OpenAPI specification
+# Dad Jokes API search OpenAPI specification
 ```
 openapi: 3.0.0
 info:
