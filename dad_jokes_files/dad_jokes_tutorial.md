@@ -1,17 +1,16 @@
 # Dad Jokes API Tutorial
 
-* [Overview](https://kurtnheiss.github.io/dad_jokes_files/dad_jokes.html#overview)
-  * [Resource details](https://kurtnheiss.github.io/dad_jokes_files/dad_jokes.html#resource-details)
-  * [Header format](https://kurtnheiss.github.io/dad_jokes_files/dad_jokes.html#header-format)
-  * [User agent](https://kurtnheiss.github.io/dad_jokes_files/dad_jokes.html#user-agent)
-* [Dad joke requests](https://kurtnheiss.github.io/dad_jokes_files/dad_jokes.html#dad-joke-requests)
-  * [Obtain a random dad joke](https://kurtnheiss.github.io/dad_jokes_files/dad_jokes.html#obtain-a-random-dad-joke)
-  * [Obtain a specific dad joke](https://kurtnheiss.github.io/dad_jokes_files/dad_jokes.html#obtain-a-specific-dad-joke)
-  * [Obtain a dad joke as an image](https://kurtnheiss.github.io/dad_jokes_files/dad_jokes.html#obtain-a-dad-joke-as-an-image)
-  * [Search for dad jokes](https://kurtnheiss.github.io/dad_jokes_files/dad_jokes.html#search-for-dad-jokes)
-      * [Pagination](https://kurtnheiss.github.io/dad_jokes_files/dad_jokes.html#pagination)
-  * [Obtain a joke using GraphQL](https://kurtnheiss.github.io/dad_jokes_files/dad_jokes.html#obtain-a-joke-by-graphql-query)
-* [Error handling](https://kurtnheiss.github.io/dad_jokes_files/dad_jokes.html#error-handling) 
+* [Overview](https://kurtnheiss.github.io/dad_jokes_files/dad_jokes_tutorial.html#overview)
+  * [Header format](https://kurtnheiss.github.io/dad_jokes_files/dad_jokes_tutorial.html#header-format)
+  * [User agent](https://kurtnheiss.github.io/dad_jokes_files/dad_jokes_tutorial.html#user-agent)
+* [Dad joke requests](https://kurtnheiss.github.io/dad_jokes_files/dad_jokes_tutorial.html#dad-joke-requests)
+  * [Obtain a random dad joke](https://kurtnheiss.github.io/dad_jokes_files/dad_jokes_tutorial.html#obtain-a-random-dad-joke)
+  * [Obtain a specific dad joke](https://kurtnheiss.github.io/dad_jokes_files/dad_jokes_tutorial.html#obtain-a-specific-dad-joke)
+  * [Obtain a dad joke as an image](https://kurtnheiss.github.io/dad_jokes_files/dad_jokes_tutorial.html#obtain-a-dad-joke-as-an-image)
+  * [Search for dad jokes](https://kurtnheiss.github.io/dad_jokes_files/dad_jokes_tutorial.html#search-for-dad-jokes)
+      * [Pagination](https://kurtnheiss.github.io/dad_jokes_files/dad_jokes_tutorial.html#pagination)
+  * [Obtain a joke using GraphQL](https://kurtnheiss.github.io/dad_jokes_files/dad_jokes_tutorial.html#obtain-a-joke-by-graphql-query)
+* [Error handling](https://kurtnheiss.github.io/dad_jokes_files/dad_jokes_tutorial.html#error-handling) 
  
 ## Overview
 The Dad Joke REST API enables you to access a vast database of dad jokes to obtain:
